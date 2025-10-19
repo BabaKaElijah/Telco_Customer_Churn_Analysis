@@ -137,3 +137,48 @@ Since recall is critical for detecting churners, **SMOTE (Synthetic Minority Ove
 
 This significantly improved the model’s ability to identify churners.
 
+## Feature Importance
+
+The top predictors of churn are:  
+- Month-to-month contract (**most important**)  
+- Short tenure  
+- High monthly charges  
+- Electronic check payment  
+- Lack of TechSupport, OnlineSecurity, or Streaming services  
+
+These features strongly influence customer retention.
+
+![Category features vs Churn](cat_features_vs_churn.png)
+
+---
+
+## Business Recommendations
+
+### Target High-Risk Customers
+- Customers with month-to-month contracts and short tenure should be prioritized.
+
+### Retention Incentives
+- Offer discounts, contract upgrades, or loyalty programs to high-risk customers.
+
+### Encourage Auto-Payments
+- Reduce churn by promoting bank transfer or automatic payment methods.
+
+### Enhance Service Value
+- Offer bundled services such as TechSupport or OnlineSecurity to increase perceived value.
+
+---
+
+## Key Takeaways
+- **Best performing model:** Logistic Regression (ROC-AUC 0.85, Recall 0.80)  
+- SMOTE improved recall for Random Forest from 0.48 to 0.62  
+- **Primary churn drivers:** contract type, tenure, monthly charges, and payment method  
+- Project demonstrates data preprocessing, model evaluation, recall optimization, and business insight extraction
+
+---
+
+## Files Included
+- `Telco_Customer_Churn_Analysis.ipynb` – Full notebook  
+- `WA_Fn-UseC_-Telco-Customer-Churn.csv` – Dataset  
+- `Telco_Customer_Churn_Overview.pdf` – Summary report  
+- `README.md` – Project overview
+
