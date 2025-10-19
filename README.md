@@ -39,3 +39,41 @@ Predicting churn early allows the company to take proactive steps to retain cust
 | MonthlyCharges | Amount charged monthly |
 | TotalCharges | Total amount charged |
 | Churn | Target variable (Yes = churned, No = retained) |
+
+## Tools and Libraries
+
+**Language:** Python  
+**Environment:** Jupyter Notebook  
+
+**Libraries Used:**  
+- pandas  
+- numpy  
+- matplotlib  
+- seaborn  
+- scikit-learn  
+- imbalanced-learn (SMOTE)  
+- reportlab (for PDF reporting)  
+
+
+## Data Preprocessing Steps
+
+- Converted **TotalCharges** to numeric and handled 11 missing values.  
+- Replaced "No internet/phone service" with "No".  
+- Encoded binary columns (**Yes/No**) as **1/0**.  
+- One-hot encoded multi-category features.  
+- Scaled numerical features using **StandardScaler**.  
+- **Final dataset shape:** 7,043 rows × 24 columns  
+
+
+## Exploratory Data Analysis (EDA)
+
+### Insights
+- **Churn rate:** 26.6%  
+- Customers with **month-to-month contracts**, **high monthly charges**, and **short tenure** are most likely to churn.  
+- Customers with **Fiber optic internet** or paying via **Electronic check** have higher churn.  
+- **Long-term contracts** (One-year or Two-year) reduce churn.  
+
+### Example Visuals
+- Distribution of churn by contract type  
+
+
