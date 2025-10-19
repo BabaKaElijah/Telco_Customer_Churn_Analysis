@@ -81,6 +81,21 @@ Predicting churn early allows the company to take proactive steps to retain cust
 - Category features vs Churn
 ![Category features vs Churn](cat_features_vs_churn.png)
 
+## Model Building
+
+Two baseline models were built and evaluated using a train-test split (70/30).
+
+### Model 1: Logistic Regression
+
+| Metric       | Value |
+|--------------|-------|
+| Accuracy     | 0.75  |
+| Recall       | 0.80  |
+| Precision    | 0.52  |
+| F1-score     | 0.63  |
+| ROC AUC      | 0.85  |
+
+**Confusion Matrix**  
 
 ### Model 2: Random Forest
 
