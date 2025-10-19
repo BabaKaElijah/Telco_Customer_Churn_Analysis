@@ -96,6 +96,10 @@ Two baseline models were built and evaluated using a train-test split (70/30).
 | ROC AUC      | 0.85  |
 
 **Confusion Matrix**  
+```
+[[950 344]]
+ [ 95 372]]
+```
 
 ### Model 2: Random Forest
 
@@ -107,11 +111,10 @@ Two baseline models were built and evaluated using a train-test split (70/30).
 | F1-score     | 0.55  |
 | ROC AUC      | 0.83  |
 
-**Confusion Matrix**  
-
+**Confusion Matrix** 
 ```
-[[950 344]]
- [ 95 372]]
+[[1167  127]]
+ [ 244  223]]
 ```
 ---
 
@@ -131,13 +134,6 @@ Since recall is critical for detecting churners, **SMOTE (Synthetic Minority Ove
 **Training set size**  
 - Before SMOTE: (5282, 23)  
 - After SMOTE: (7760, 23)  
-
-**Confusion Matrix after SMOTE**  
-
-```
-[[1167 127]
- [ 244 223]]
-```
 
 This significantly improved the model’s ability to identify churners.
 
