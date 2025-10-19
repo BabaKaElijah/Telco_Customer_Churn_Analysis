@@ -148,7 +148,7 @@ The top predictors of churn are:
 
 These features strongly influence customer retention.
 
-![Category features vs Churn](cat_features_vs_churn.png)
+![Feature Importance](feature_importance_rf_smote.png)
 
 ---
 
