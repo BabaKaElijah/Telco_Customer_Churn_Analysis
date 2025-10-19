@@ -78,5 +78,5 @@ Predicting churn early allows the company to take proactive steps to retain cust
 ![Churn Distribution](churn_distribution.png)
 - Number of features Distribution
 ![Num Feature Distribution](num_features_distribution.png)
-
-
+- Category features vs Churn
+![Category features vs Churn](cat_features_vs_churn.png)
