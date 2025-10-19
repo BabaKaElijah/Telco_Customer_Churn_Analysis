@@ -74,6 +74,8 @@ Predicting churn early allows the company to take proactive steps to retain cust
 - **Long-term contracts** (One-year or Two-year) reduce churn.  
 
 ### Example Visuals
-- Distribution of churn by contract type  
+- Distribution of churn 
+![Churn Distribution](churn_distribution.png)
+
 
 
