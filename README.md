@@ -177,7 +177,7 @@ These features strongly influence customer retention.
 ---
 
 ## Files Included
-- `Telco_Customer_Churn_Analysis.ipynb` – Full notebook  
+- `Churn_Analysis.ipynb` – Full notebook  
 - `WA_Fn-UseC_-Telco-Customer-Churn.csv` – Dataset  
 - `Telco_Customer_Churn_Overview.pdf` – Summary report  
 - `README.md` – Project overview
