@@ -80,3 +80,49 @@ Predicting churn early allows the company to take proactive steps to retain cust
 ![Num Feature Distribution](num_features_distribution.png)
 - Category features vs Churn
 ![Category features vs Churn](cat_features_vs_churn.png)
+
+
+### Model 2: Random Forest
+
+| Metric       | Value |
+|--------------|-------|
+| Accuracy     | 0.79  |
+| Recall       | 0.48  |
+| Precision    | 0.64  |
+| F1-score     | 0.55  |
+| ROC AUC      | 0.83  |
+
+**Confusion Matrix**  
+
+```
+[[950 344]]
+ [ 95 372]]
+```
+---
+
+## Improving Recall (SMOTE Oversampling)
+
+Since recall is critical for detecting churners, **SMOTE (Synthetic Minority Oversampling Technique)** was used to balance the dataset.
+
+### Random Forest after SMOTE
+
+| Metric       | Value |
+|--------------|-------|
+| Recall       | 0.62  |
+| Precision    | 0.56  |
+| F1-score     | 0.59  |
+| ROC AUC      | 0.82  |
+
+**Training set size**  
+- Before SMOTE: (5282, 23)  
+- After SMOTE: (7760, 23)  
+
+**Confusion Matrix after SMOTE**  
+
+```
+[[1167 127]
+ [ 244 223]]
+```
+
+This significantly improved the model’s ability to identify churners.
+
